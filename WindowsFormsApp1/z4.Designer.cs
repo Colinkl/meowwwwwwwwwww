@@ -31,7 +31,7 @@
             this.xbox = new System.Windows.Forms.TextBox();
             this.ybox = new System.Windows.Forms.TextBox();
             this.zbox = new System.Windows.Forms.TextBox();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.outss = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -65,13 +65,14 @@
             this.zbox.TabIndex = 2;
             this.zbox.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // richTextBox1
+            // outss
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(12, 280);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(395, 155);
-            this.richTextBox1.TabIndex = 3;
-            this.richTextBox1.Text = "";
+            this.outss.Location = new System.Drawing.Point(12, 280);
+            this.outss.Name = "outss";
+            this.outss.ReadOnly = true;
+            this.outss.Size = new System.Drawing.Size(395, 155);
+            this.outss.TabIndex = 3;
+            this.outss.Text = "";
             // 
             // label1
             // 
@@ -128,6 +129,7 @@
             this.sqrr.TabStop = true;
             this.sqrr.Text = "x^2";
             this.sqrr.UseVisualStyleBackColor = true;
+            this.sqrr.CheckedChanged += new System.EventHandler(this.sqrr_CheckedChanged);
             // 
             // eee
             // 
@@ -139,6 +141,7 @@
             this.eee.TabStop = true;
             this.eee.Text = "e^x";
             this.eee.UseVisualStyleBackColor = true;
+            this.eee.CheckedChanged += new System.EventHandler(this.eee_CheckedChanged);
             // 
             // button1
             // 
@@ -162,7 +165,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.outss);
             this.Controls.Add(this.zbox);
             this.Controls.Add(this.ybox);
             this.Controls.Add(this.xbox);
@@ -178,7 +181,7 @@
         private System.Windows.Forms.TextBox xbox;
         private System.Windows.Forms.TextBox ybox;
         private System.Windows.Forms.TextBox zbox;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox outss;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
