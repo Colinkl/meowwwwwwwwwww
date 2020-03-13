@@ -49,7 +49,7 @@ namespace WindowsFormsApp1
             richTextBox1.Text += Environment.NewLine + "x= " +x;
             richTextBox1.Text += Environment.NewLine + "y= " + y;
             richTextBox1.Text += Environment.NewLine + "z= " + z;
-            g = ((Math.Pow(y, (x + 1)) / (Math.Pow(Math.Abs(y - 2), (1/3)) + 3)) + ((x + (0.5 * y)) / (2 * Math.Abs(x + y))) * (Math.Pow(x + 1, (-1 / Math.Sin(z))));
+            g = (Math.Pow(y, (x + 1)) / (Math.Pow(Math.Abs(y - 2), (1 / 3)) + 3)) + ((((x + (0.5 * y)) * (Math.Pow((x + 1), (-1 / Math.Sin(z))))) / ((2 * Math.Abs(x + y)))));
             richTextBox1.Text += Environment.NewLine + "g= " + g;
         }
 
