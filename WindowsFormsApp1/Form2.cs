@@ -42,7 +42,7 @@ namespace WindowsFormsApp1
                     mi.ShowDialog(); // показываем
                     break;
                 case 3:
-                    meow ma = new meow();
+                    z4 ma = new z4();
                     ma.ShowDialog(); // показываем
                     break;
 

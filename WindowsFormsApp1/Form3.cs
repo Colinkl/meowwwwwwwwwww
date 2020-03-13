@@ -17,7 +17,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        public double x, y, z, g;
+        private double x, y, z, g;
 
         private void Form3_Load(object sender, EventArgs e)
         {
