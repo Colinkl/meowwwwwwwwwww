@@ -17,6 +17,7 @@ namespace WindowsFormsApp1
         }
  
         SoundPlayer bass = new SoundPlayer("bassboosted.wav");
+        SoundPlayer satan = new SoundPlayer("666.wav");
         public void ButtonPress(int id)
         {
             meoww = meoww + Convert.ToString(id);
@@ -58,7 +59,12 @@ namespace WindowsFormsApp1
             {
                 bass.Play();
             }
+            if (meoww == "666")
+            {
+                satan.Play();
+            }
         }
+    
             private void Form1_Click(object sender, EventArgs e)
         {
             button3.Enabled = true;
@@ -74,7 +80,7 @@ namespace WindowsFormsApp1
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-
+             
         }
 
         private void button1_Click(object sender, EventArgs e) => ButtonPress(1);
