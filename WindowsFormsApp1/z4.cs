@@ -72,7 +72,7 @@ namespace WindowsFormsApp1
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            x = double.Parse(xbox.Text);
+            x = Convert.ToDouble(xbox.Text);
         }
 
         private void label2_Click(object sender, EventArgs e)

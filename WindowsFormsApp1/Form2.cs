@@ -45,6 +45,10 @@ namespace WindowsFormsApp1
                     z4 ma = new z4();
                     ma.ShowDialog(); // показываем
                     break;
+                case 4:
+                    zz4 m4 = new zz4();
+                    m4.ShowDialog();
+                    break;
 
             }
                 
