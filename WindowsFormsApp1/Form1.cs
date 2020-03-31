@@ -86,6 +86,7 @@ namespace WindowsFormsApp1
             button8.Enabled = true;
             button9.Enabled = true;
             button1.Enabled = true;
+            button10.Enabled = true;
 
         }
         private void Form1_Load(object sender, EventArgs e)
