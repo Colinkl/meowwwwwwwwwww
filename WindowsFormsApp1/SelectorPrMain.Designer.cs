@@ -63,7 +63,8 @@
             "4",
             "5",
             "6",
-            "7"});
+            "7",
+            "8"});
             this.listBox1.Location = new System.Drawing.Point(157, 22);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(111, 43);

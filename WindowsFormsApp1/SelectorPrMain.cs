@@ -61,6 +61,10 @@ namespace WindowsFormsApp1
                     z7 m7 = new z7();
                     m7.ShowDialog();
                     break;
+                case 8:
+                    z8 m8 = new z8();
+                    m8.ShowDialog();
+                    break;
                     
             }
                 

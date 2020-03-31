@@ -96,6 +96,12 @@
     <Compile Include="z7.Designer.cs">
       <DependentUpon>z7.cs</DependentUpon>
     </Compile>
+    <Compile Include="z8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="z8.Designer.cs">
+      <DependentUpon>z8.cs</DependentUpon>
+    </Compile>
     <Compile Include="zz4.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +138,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="z7.resx">
       <DependentUpon>z7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="z8.resx">
+      <DependentUpon>z8.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="zz4.resx">
       <DependentUpon>zz4.cs</DependentUpon>
