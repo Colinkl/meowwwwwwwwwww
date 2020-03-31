@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form3 : Form
+    public partial class z2 : Form
     {
-        public Form3()
+        public z2()
         {
             InitializeComponent();
         }
@@ -66,12 +66,7 @@ namespace WindowsFormsApp1
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
 
-        }
-
-        
-        
-
-        
-        
+        }     
+                
     }
 }

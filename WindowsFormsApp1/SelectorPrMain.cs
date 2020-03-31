@@ -38,15 +38,15 @@ namespace WindowsFormsApp1
                     me.ShowDialog(); // показываем
                     break;
                 case 2:
-                    Form3 mi = new Form3();
+                    z2 mi = new z2();
                     mi.ShowDialog(); // показываем
                     break;
                 case 3:
-                    z4 ma = new z4();
+                    z3 ma = new z3();
                     ma.ShowDialog(); // показываем
                     break;
                 case 4:
-                    zz4 m4 = new zz4();
+                    z4 m4 = new z4();
                     m4.ShowDialog();
                     break;
                 case 5:

@@ -28,149 +28,121 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.xbox = new System.Windows.Forms.TextBox();
-            this.ybox = new System.Windows.Forms.TextBox();
-            this.zbox = new System.Windows.Forms.TextBox();
-            this.outss = new System.Windows.Forms.RichTextBox();
+            this.x0 = new System.Windows.Forms.TextBox();
+            this.xk = new System.Windows.Forms.TextBox();
+            this.dxx = new System.Windows.Forms.TextBox();
+            this.bx = new System.Windows.Forms.TextBox();
+            this.OutBoxx = new System.Windows.Forms.RichTextBox();
+            this.calc = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.sh = new System.Windows.Forms.RadioButton();
-            this.sqrr = new System.Windows.Forms.RadioButton();
-            this.eee = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // xbox
+            // x0
             // 
-            this.xbox.Location = new System.Drawing.Point(80, 53);
-            this.xbox.Name = "xbox";
-            this.xbox.Size = new System.Drawing.Size(178, 20);
-            this.xbox.TabIndex = 0;
-            this.xbox.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.x0.Location = new System.Drawing.Point(113, 47);
+            this.x0.Name = "x0";
+            this.x0.Size = new System.Drawing.Size(100, 20);
+            this.x0.TabIndex = 0;
+            this.x0.TextChanged += new System.EventHandler(this.x0_TextChanged);
             // 
-            // ybox
+            // xk
             // 
-            this.ybox.Location = new System.Drawing.Point(80, 93);
-            this.ybox.Name = "ybox";
-            this.ybox.Size = new System.Drawing.Size(178, 20);
-            this.ybox.TabIndex = 1;
-            this.ybox.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.xk.Location = new System.Drawing.Point(113, 88);
+            this.xk.Name = "xk";
+            this.xk.Size = new System.Drawing.Size(100, 20);
+            this.xk.TabIndex = 1;
+            this.xk.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // zbox
+            // dxx
             // 
-            this.zbox.Location = new System.Drawing.Point(80, 136);
-            this.zbox.Name = "zbox";
-            this.zbox.Size = new System.Drawing.Size(178, 20);
-            this.zbox.TabIndex = 2;
-            this.zbox.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.dxx.Location = new System.Drawing.Point(113, 138);
+            this.dxx.Name = "dxx";
+            this.dxx.Size = new System.Drawing.Size(100, 20);
+            this.dxx.TabIndex = 2;
             // 
-            // outss
+            // bx
             // 
-            this.outss.Location = new System.Drawing.Point(12, 280);
-            this.outss.Name = "outss";
-            this.outss.ReadOnly = true;
-            this.outss.Size = new System.Drawing.Size(395, 155);
-            this.outss.TabIndex = 3;
-            this.outss.Text = "";
+            this.bx.Location = new System.Drawing.Point(113, 190);
+            this.bx.Name = "bx";
+            this.bx.Size = new System.Drawing.Size(100, 20);
+            this.bx.TabIndex = 3;
+            // 
+            // OutBoxx
+            // 
+            this.OutBoxx.Location = new System.Drawing.Point(54, 236);
+            this.OutBoxx.Name = "OutBoxx";
+            this.OutBoxx.Size = new System.Drawing.Size(337, 182);
+            this.OutBoxx.TabIndex = 4;
+            this.OutBoxx.Text = "";
+            // 
+            // calc
+            // 
+            this.calc.Location = new System.Drawing.Point(233, 37);
+            this.calc.Name = "calc";
+            this.calc.Size = new System.Drawing.Size(158, 173);
+            this.calc.TabIndex = 5;
+            this.calc.Text = "calc";
+            this.calc.UseVisualStyleBackColor = true;
+            this.calc.Click += new System.EventHandler(this.button1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(43, 49);
+            this.label1.Location = new System.Drawing.Point(68, 47);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(31, 24);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "x=";
+            this.label1.Size = new System.Drawing.Size(26, 13);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "X0=";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(43, 93);
+            this.label2.Location = new System.Drawing.Point(68, 95);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(30, 24);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "y=";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.label2.Size = new System.Drawing.Size(26, 13);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Xk=";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(43, 132);
+            this.label3.Location = new System.Drawing.Point(68, 145);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(30, 24);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "z=";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label3.Size = new System.Drawing.Size(26, 13);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Dx=";
             // 
-            // sh
+            // label4
             // 
-            this.sh.AutoSize = true;
-            this.sh.Location = new System.Drawing.Point(76, 191);
-            this.sh.Name = "sh";
-            this.sh.Size = new System.Drawing.Size(47, 17);
-            this.sh.TabIndex = 7;
-            this.sh.TabStop = true;
-            this.sh.Text = "sh(x)";
-            this.sh.UseVisualStyleBackColor = true;
-            this.sh.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(71, 193);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(22, 13);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "b =";
             // 
-            // sqrr
-            // 
-            this.sqrr.AutoSize = true;
-            this.sqrr.Location = new System.Drawing.Point(76, 214);
-            this.sqrr.Name = "sqrr";
-            this.sqrr.Size = new System.Drawing.Size(42, 17);
-            this.sqrr.TabIndex = 8;
-            this.sqrr.TabStop = true;
-            this.sqrr.Text = "x^2";
-            this.sqrr.UseVisualStyleBackColor = true;
-            this.sqrr.CheckedChanged += new System.EventHandler(this.sqrr_CheckedChanged);
-            // 
-            // eee
-            // 
-            this.eee.AutoSize = true;
-            this.eee.Location = new System.Drawing.Point(76, 237);
-            this.eee.Name = "eee";
-            this.eee.Size = new System.Drawing.Size(42, 17);
-            this.eee.TabIndex = 9;
-            this.eee.TabStop = true;
-            this.eee.Text = "e^x";
-            this.eee.UseVisualStyleBackColor = true;
-            this.eee.CheckedChanged += new System.EventHandler(this.eee_CheckedChanged);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(226, 191);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 63);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "calc";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // z4
+            // zz4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(419, 485);
-            this.Controls.Add(this.outss);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.eee);
-            this.Controls.Add(this.sqrr);
-            this.Controls.Add(this.sh);
+            this.ClientSize = new System.Drawing.Size(429, 450);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.zbox);
-            this.Controls.Add(this.ybox);
-            this.Controls.Add(this.xbox);
-            this.Name = "z4";
-            this.Text = "z4";
+            this.Controls.Add(this.calc);
+            this.Controls.Add(this.OutBoxx);
+            this.Controls.Add(this.bx);
+            this.Controls.Add(this.dxx);
+            this.Controls.Add(this.xk);
+            this.Controls.Add(this.x0);
+            this.Name = "zz4";
+            this.Text = "zz4";
+            this.Load += new System.EventHandler(this.zz4_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -178,16 +150,15 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox xbox;
-        private System.Windows.Forms.TextBox ybox;
-        private System.Windows.Forms.TextBox zbox;
-        private System.Windows.Forms.RichTextBox outss;
+        private System.Windows.Forms.TextBox x0;
+        private System.Windows.Forms.TextBox xk;
+        private System.Windows.Forms.TextBox dxx;
+        private System.Windows.Forms.TextBox bx;
+        private System.Windows.Forms.RichTextBox OutBoxx;
+        private System.Windows.Forms.Button calc;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RadioButton sh;
-        private System.Windows.Forms.RadioButton sqrr;
-        private System.Windows.Forms.RadioButton eee;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label4;
     }
 }
