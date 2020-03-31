@@ -49,7 +49,10 @@ namespace WindowsFormsApp1
                     zz4 m4 = new zz4();
                     m4.ShowDialog();
                     break;
-
+                case 5:
+                    z5 m5 = new z5();
+                    m5.ShowDialog();
+                    break;
             }
                 
         }

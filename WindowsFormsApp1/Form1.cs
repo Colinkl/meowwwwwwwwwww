@@ -48,6 +48,9 @@ namespace WindowsFormsApp1
                     button9.Enabled = false;
                     break;
                 case 9:
+                    button10.Enabled = false;
+                    break;
+                case 0:
                     button1.Enabled = false;
                     break;
                 default:
@@ -57,11 +60,18 @@ namespace WindowsFormsApp1
             }
             if (meoww == "88005553535")
             {
-                bass.Play();
+                bass.Play();   //Вызывает bassboosted
+                meoww= "";
             }
             if (meoww == "666")
             {
                 satan.Play();
+                meoww = "";
+            }
+            if (meoww == "000")
+            {
+                satan.Stop();
+                bass.Stop();
             }
         }
     
